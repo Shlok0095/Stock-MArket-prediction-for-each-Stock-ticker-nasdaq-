@@ -1,0 +1,26 @@
+{
+  "paths": {
+    "tickers_txt": "tickers.txt",
+    "stocks_csv": "stocks.csv",
+    "saved_models_folder": "saved_models"
+  },
+  "model_training": {
+    "retrain_models": false,
+    "epochs": 100,
+    "batch_size": 16,
+    "patience": 10
+  },
+  "model_architecture": {
+    "lstm_units": 64,
+    "dense_units": 1
+  },
+  "data_processing": {
+    "seq_length": 50,
+    "start_date": "2020-01-01",
+    "end_date": "2023-12-31"
+  },
+  "visualization": {
+    "future_periods": 90,
+    "noise_factor": 1.2
+  }
+}

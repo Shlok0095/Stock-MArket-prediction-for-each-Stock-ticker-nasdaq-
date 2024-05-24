@@ -1,0 +1,4 @@
+NVDA
+MSFT
+V
+AMZN
